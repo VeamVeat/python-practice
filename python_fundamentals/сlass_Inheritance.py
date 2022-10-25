@@ -8,9 +8,8 @@ class First:
 
 
 class Second(First):
-    @classmethod
-    def get_name(cls):
-        return f'{cls.__class__.__name__}'
+    def get_name(self):
+        return 'First'
 
 
 class Third:
@@ -24,7 +23,6 @@ class GeneralOne(Second, Third, First):
 
 class GeneralTwo(Second, Third, First):
     def get_programming_language(self):
-        super().get_programming_language()
         return "Python-love"
 
 
