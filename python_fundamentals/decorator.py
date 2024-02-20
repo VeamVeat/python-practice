@@ -3,7 +3,6 @@ from datetime import datetime
 
 
 def timer(fun):
-
     def wrapps(*args, **kwargs):
         start_time = datetime.now()
         result = fun(*args, **kwargs)

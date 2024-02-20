@@ -1,3 +1,5 @@
-# python-practice
+# Python practice tasks
 
-Задaчки по python
+- algorithms
+- patterns
+- other logical tasks
