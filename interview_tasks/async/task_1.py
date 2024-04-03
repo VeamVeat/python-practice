@@ -12,3 +12,7 @@ async def main():
 
 
 asyncio.run(main())
+
+
+# Pety
+# Vasya

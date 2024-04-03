@@ -18,3 +18,6 @@ asyncio.run(main())
 
 
 # todo: создать 100000 тасок create_task
+
+# Vasya
+# Pety
