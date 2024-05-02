@@ -16,5 +16,5 @@ class B(A):
 
 
 instance_b = B()
-f = instance_b.cget()
-print(f)
+result = instance_b.cget()
+print(result)
